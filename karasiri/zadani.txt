@@ -1,0 +1,5 @@
+Ukolem semestralni prace bylo naprogramovat 2d sandbox hru. Hra se nazyva "Sea World". Hra ma hrace, hrajete za malou rybicku, ktera pohybuje na LEFT, RIGHT, UP, DOWN. Rybicka ma zivot (3 srdicka) a existuje dve modely zraneni. Rybicka se pohybuje ve vode.
+Rybicka musi sebrat barevne klice a otevrit si dvere pro pruchod na dalsi level. Kazdy klic otevira dvere se stehnou barvou.
+Pro otevreni dvere je potreba stisknout klavesa 'F'. Pro Save game je potreba stisknout klavesa 'F7'. Start new game je 'F1'. Pro load game 'F9'.
+Vshecni objecty ve hre jsou blocky 64x64, proto je vjuzit polymorfismus. Class Block od ktereho dedi Wall, Door, Key, Spike, a class Fish od ktereho dedi class Enemy (Fish a Enemy jsou moving objects)/
+Nacitani objektu a karty je implementovano jako nacitani ze souboru a je mozne ukladat aktualní stav hry.
